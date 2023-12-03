@@ -9,21 +9,21 @@
     <title>BEM Notation & OOCSS: Writing scaleable CSS</title>
 </head>
 
-<body>
-    <h1>BEM Wars</h1>
+<body class="page">
+    <h1 class="page__heading">BEM Wars</h1>
     <div class="container">
-        <div>
-            <h2>The Dark Side</h2>
-            <img src="./images/vader.jpeg">
+        <div class="card card--bad" >
+            <h2 class="card__heading">The Dark Side</h2>
+            <img class="card__img" src="./images/vader.jpeg">
             <p>Nesting!</p>
             <p>Conflict!</p>
             <p>Specificity Wars!</p>
             <p>Cookies</p>
         </div>
 
-        <div>
-            <h2>The Force</h2>
-            <img src="./images/yoda.jpeg">
+        <div class="card card--good">
+            <h2 class="card__heading">The Force</h2>
+            <img class="card__img" src="./images/yoda.jpeg">
             <p>Love</p>
             <p>Beauty</p>
             <p>CSS that Scales!</p>
