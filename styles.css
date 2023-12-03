@@ -46,6 +46,23 @@
     width: 200px;
   }
 
+  .card__button {
+    position: relative;
+    left: 30%;
+    border-radius: 1rem;
+    min-width: 80px;
+    min-height: 30px;
+  }
+
+  .card__button--darth {
+    background-color: darkred;
+    color: burlywood;
+  }
+
+  .card__button--yoda {
+    background-color:darkolivegreen ;
+    color: burlywood;
+  }
   /* skin  of the good card */
 .card--good {
     background-color:lightgoldenrodyellow;
