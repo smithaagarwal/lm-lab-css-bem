@@ -3,7 +3,6 @@
 
 .page {
   background-color: blanchedalmond;
-  padding: 1rem 25%;
 }
 
 .page__heading {
@@ -68,10 +67,19 @@
     background-color:lightgoldenrodyellow;
     font-style: italic;
 }
+
+.card--goodBlue {
+    background-color:lightblue;
+    font-style: italic;
+}
  
 /* skin  of the bad card */
 .card--bad {
     background-color: darkorange;
     font-style: normal;
+}
+
+.card--badBlue {
+    background-color: darkblue;
 }
 /* Happy coding! */
