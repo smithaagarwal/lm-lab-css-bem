@@ -21,6 +21,7 @@
   flex-direction: row;
 }
 
+/* structure of the card */
 .card {
     padding: 1rem;
     border: 1rem solid #ddd;
@@ -45,11 +46,13 @@
     width: 200px;
   }
 
+  /* skin  of the good card */
 .card--good {
     background-color:lightgoldenrodyellow;
     font-style: italic;
 }
-
+ 
+/* skin  of the bad card */
 .card--bad {
     background-color: darkorange;
     font-style: normal;
